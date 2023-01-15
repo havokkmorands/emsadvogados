@@ -1,0 +1,147 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #1B2F5A;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1B2F5A;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-area .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #48487F;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#areaatuacao {
+    background-color: #48487F;
+}
+
+.text-colored {
+    color: #dddfe4;
+}
+
+.nav-area .nav-link.active,
+#fale-conosco button {
+    background-color: #1B2F5A;
+    color: #fff;
+}
+
+.nav-area .nav-link:hover {
+    color: #1B2F5A;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+#map {
+    height: 400px
+}
+.resize{
+    height:300px;
+}
+.floating {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 40px;
+    right: 50px;
+    background-color: #10af4b;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 65px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+   }
+   
+   .fab-icon {
+    margin-top: 16px;
+   }
+
+   .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+@media (max-width: 767px) {
+
+    
+    .carousel-item img {
+        height: 280px;
+    }
+    .navbar-brand {
+        font-size: 14px;
+    }
+
+    .floating {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 50px;
+        background-color: #10af4b;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+       }
+    
+}
+
+@media (max-width: 1181px) {
+    .resize{
+        height:200px;
+    }
+    .floating {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 50px;
+        background-color: #10af4b;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+       }
+
+    .carousel-item img {
+        width: 100%;
+    }
+}
+
